@@ -85,7 +85,7 @@ def run_kashish():
         talk("Here is your google search ")
         webbrowser.open("www.google.co.in/search?q="+data)
     elif "shut down "  in cmd:
-
+        break
 
 
 
